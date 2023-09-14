@@ -5,19 +5,14 @@
 *TODO*: Replace the `<github-organization>` with your GitHub organization.
 
 ``` bash
-quarto use template <EngleLab>/<%= filesafename %>
+quarto use template EngleLab/presentation-templates
 ```
 
-This will install the extension and create an example qmd file that you can use as a starting place for your article.
+This will install the extension and create an example qmd file that you can use as a starting place for your presentation.
 
-## Using
+Alternatively, you can just add the format files without a template document
 
-*TODO*: Describe how to use your format.
+```bash
+quarto add EngleLab/presentation-templates
+```
 
-## Format Options
-
-*TODO*: If your format has options that can be set via document metadata, describe them.
-
-## Example
-
-Here is the source code for a minimal sample document: [example.qmd](example.qmd).
